@@ -4,7 +4,7 @@ import {Paper, Button,TextField} from '@material-ui/core'
 import List from '../List/List'
 
 function Contain() {
-    const [state, setstate] = useState({text:"",todo:["task1"],progress:[],done:[]})
+    const [state, setstate] = useState({text:"",todo:[],progress:[],done:[]})
     const fillText=(e)=>{
         setstate({...state,text:e.target.value})
     }
