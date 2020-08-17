@@ -1,0 +1,27 @@
+.list{
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #E8E8E8 !important;
+}
+.list>h3{
+    color: #00BFFF;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size:  20px;
+}
+.item-container{
+    display: inline;
+}
+/* .item{
+    width: 270;
+    margin: 10px;
+    background-color: white;
+    min-height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+ .button{
+    margin-right: 250px;
+    margin-top: 5px;
+}  */
